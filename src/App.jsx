@@ -1,18 +1,20 @@
+import Header from './components/Header/Header';
+import CoreConcepts from './components/Header/CoreConcepts';
+import Examples from './components/Header/Examples';
+
+
+
+
 function App() {
+
   return (
-    <div>
-      <header>
-        <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
-        <h1>React Essentials</h1>
-        <p>
-          Fundamental React concepts you will need for almost any app you are
-          going to build!
-        </p>
-      </header>
+    <>
+      <Header />
       <main>
-        <h2>Time to get started!</h2>
+        <CoreConcepts />
+        <Examples />
       </main>
-    </div>
+    </>
   );
 }
 
